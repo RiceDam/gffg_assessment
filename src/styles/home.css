@@ -1,0 +1,53 @@
+.home-banner {
+    background-image: url("../images/pho.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.home-banner h1 {
+    margin: 0;
+    color: white;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 75px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 50%;
+}
+
+.view-menu {
+    margin-top: 1em;
+    text-decoration: none;
+    color: white;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding: 1em;
+    font-size: 30px;
+    background-color: #A0937D;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.home-layer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0,0,0,0)); 
+}
+
+@media screen and (max-width: 1199px) {
+    .home_banner {
+        align-items: center;
+    }
+    .home-layer h1 {
+        width: 100%;
+        font-size: 45px;
+    }
+    .view-menu {
+        font-size: 20px;
+    }
+}
